@@ -4,10 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new GLSchwenkkamera();
-        new GLLicht();
-
-        new GLWuerfel(0,0,0,100);
+        Game game = new Game();
+        game.start();
+        game.game();
 
     }
 }
